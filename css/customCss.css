@@ -1,0 +1,353 @@
+  .nft-project2 {
+    margin-top: -250px;
+    margin-bottom: -250px;
+  }
+  .nft-project, .nft-project2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+  }
+  .nft-project video, .nft-project2 video, .nft-project picture, .nft-project2 picture {
+    width: 50%;
+  }
+  @media (max-width: 1057px) {
+    .nft-project video,
+    .nft-project2 video {
+      width: 100%;
+    }
+    .nft-project2 {
+      height: unset;
+      margin: unset;
+    }
+    .nft-project {
+        height: unset;
+        margin-top: 100px;
+    }
+  }
+  .nft-project video {
+    object-fit: cover;
+  }
+  .nft-project .cont-button,
+  .nft-project2 .cont-button {
+    width: 50%;
+    text-align: center;
+  }
+  .nft-project .cont-button .desct h3,
+  .nft-project2 .cont-button .desct h3 {
+    font-size:60px;
+  }
+  .nft-project .cont-button .desct .buttons,
+  .nft-project2 .cont-button .desct .buttons {
+      margin-top: 40px;
+  }
+  .nft-project .cont-button .desct .buttons a,
+  .nft-project2 .cont-button .desct .buttons a {
+      /* border: 1px solid red; */
+      /* padding: 20px 50px; */
+      /* display: inline-block; */
+      margin-right: 10px;
+      padding: 20px 45px 20px 22px;
+      border-radius: 0px;
+      background-color: #333;
+      background-image: url('../images/icons/arrow-right-white.svg');
+      background-position: 86% 50%;
+      background-size: 11px;
+      background-repeat: no-repeat;
+      -webkit-transition: background-color 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+      transition: background-color 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+      transition: transform 300ms ease-in-out, background-color 300ms ease-in-out;
+      transition: transform 300ms ease-in-out, background-color 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+      font-family: Poppins, sans-serif;
+      color: #fff;
+      font-size: 18px;
+      line-height: 1;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline;
+  }
+  .nft-project .cont-button .desct .buttons a:hover,
+  .nft-project2 .cont-button .desct .buttons a:hover {
+      background-color: #6c6c6c ;
+    -webkit-transform: translate(3px, 0px);
+    -ms-transform: translate(3px, 0px);
+    transform: translate(3px, 0px);
+    color: #fff;
+  }
+
+  .nft-project2 .cont-button {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nft-project2 .cont-button .desct:first-child {
+    display: none;
+  }
+
+  @media screen and (max-width: 991px) {
+    /* .nft-project {
+      height: 150vh;
+    } */
+    .nft-project picture,
+    .nft-project2 picture {
+      width: 100%;
+    }
+    .nft-project picture img,
+    .nft-project2 picture img {
+      object-fit: cover;
+    }
+    .nft-project .cont-button,
+    .nft-project2 .cont-button {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    /* .nft-project2 {
+      height: 200vh;
+    } */
+    .nft-project2 .cont-button{
+      flex-wrap: wrap;
+      align-content: space-evenly;
+    }
+    .nft-project2 .cont-button .desct {
+      width: 100%;
+    }
+    .nft-project .cont-button .desct {
+      display: none;
+    }
+    .nft-project2 .cont-button .desct:first-child {
+      display: block;
+    }
+      
+  }
+
+  @media screen and (max-width: 519px) {
+    .collection-list-wrapper-projects.show-tablet {
+        margin-top: 60vh;
+        margin-bottom: -60vh;
+    }
+  }
+
+  /** footer **/
+  
+  
+  .site-footer {
+    position: relative;
+    background-color:#000;
+    width: 100%;	
+    bottom: 0; 
+  }
+  
+  .site-footer .container {
+    max-width: 85%;
+    margin: 0 auto;
+    position: relative;
+    /* overflow: hidden; */
+    padding-top: 20px;
+  }
+  
+  .site-footer .container h1 {
+    font-size: 40px;
+  }
+  
+  .site-footer .container h2 {
+    font-size: 40px;
+    float: right;
+  }
+  
+  .site-footer .grid-container a {
+    color: #ffffff ;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 16.25px;
+  }
+  
+  .site-footer .grid-item {
+    padding: 10px;
+    color: #ffffff ;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+  }
+  
+  .site-footer .grid-container .inner-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: left;
+  }
+  
+  .site-footer .container hr { 
+    display: block; 
+    height: 1px;
+    border: 0; border-top: 1px solid #ffffff ;
+    margin: 1px; 
+    padding: 0; 
+  }
+  
+  .site-footer .container p {
+    font-size: 14px;
+    text-align: right;
+    color: #ffffff ;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  .site-footer .container .logo-img,
+  .main-logo img {
+    width: 120px;
+    /* height: 140px; */
+    cursor: pointer;
+  }
+
+  .site-footer .container .logo-img.square,
+  .main-logo img.square {
+    width: 75px;
+  }
+  
+  /* .site-footer .grid-container .grid-item .social-buttons {
+    padding-top: 20px;
+  } */
+  
+  .site-footer .grid-container .grid-item .social-buttons a {
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    color: #1A1F24;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 8px;
+    background: white;
+    border-radius: 100%;
+  }
+  
+  
+  .site-footer .grid-container .grid-item .social-buttons a{
+    transition: 100ms ease-in;
+  }
+  
+  .site-footer .grid-container .grid-item .social-buttons a:hover {
+    transform: scale(1.2);
+    background: #f4bd03;
+  }
+  .site-footer .grid-container .grid-item .social-buttons a:hover i {
+    color: white;
+  }
+  .site-footer .grid-container a:hover {
+    color: #f4bd03;
+  }
+
+  
+
+  
+
+  
+  
+  /*------------------------------------------------------------------
+  [ Screen Sizes] */
+  
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+  
+    .site-footer {
+      height: 485px;
+      bottom: 0; 
+    }
+  
+    .site-footer .grid-container {
+      display: grid;
+      grid-template-columns: 100%;
+    }
+  
+    .site-footer .grid-container .inner-grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      text-align: left;
+    }
+  
+
+    .site-footer .container p {
+      text-align: center;
+    }
+
+    .site-footer .grid-item { 
+      text-align: center;
+    }
+    .site-footer .grid-container .grid-item .social-buttons {
+      margin-bottom: 20px;
+    }
+    .site-footer .grid-container .grid-item .social-buttons a {
+      width: 35px;
+      height: 35px;
+      margin: 0 14px;
+      font-size: 20px;
+    }
+    .main-logo img {
+      margin-top: 10px;
+      width: 80px;
+    }
+    .main-logo img.square {
+      width: 55px;
+    }
+  
+  }
+  
+  /*========================================================*/
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  
+    .site-footer {
+      height: 200px;
+      bottom: 0;
+    }
+  
+    .site-footer .grid-container {
+      display: grid;
+      grid-template-columns: 350px auto 350px;
+    }
+  
+    .site-footer .grid-container .inner-grid-container{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      text-align: left;
+    }
+
+    .site-footer .grid-item.last-social {
+      text-align: right;
+      padding-right: 0;
+    }
+    .site-footer .grid-container .grid-item.last-social .social-buttons a:last-child {
+      margin-right: 0;
+    }
+  
+  }
+  
+  .main-grid.position-absolute.background-color-black {
+    height: 100vh;
+  }
+  #w-node-ffd8a01d-fdec-4611-79a4-800fc4802d97-62f266b3 {
+    grid-row-end: 1;
+  }
+  .about-paragraph {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1440px) {
+    .about-paragraph {
+        bottom: 35%;
+    }
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .nav-link {
+    font-size: 30px;
+    text-align: left;
+  }
+    
+    
